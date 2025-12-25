@@ -77,7 +77,7 @@
         
         DEFAULTS: {
             CLINIC_NAME: "Solo Clinic",
-            DOCTOR_NAME: "Dr. Yusuf Abbas",
+            DOCTOR_NAME: "Dr.",
             ADDRESS: "Department of Cardiology\nCity Heart Institute, Medical District",
             FOOTER: "Emergency Contact: 108 | Get well soon."
         },
@@ -1851,5 +1851,6 @@
     document.addEventListener("DOMContentLoaded", () => {
         App.init();
     });
+
 
 })();
